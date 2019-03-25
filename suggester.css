@@ -1,0 +1,19 @@
+h1 , #NAME {text-align: center;
+color: blue;
+}
+  p {text-indent: 50px;
+  color: orange;
+
+}
+p:hover{
+  color:purple;
+  
+}
+
+
+
+body{
+  background: url(http://www.pxleyes.com/blog/wp-content/uploads/waterfalls/3.jpg) no-repeat ;
+  background-size:cover;
+
+}
