@@ -5,6 +5,9 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="/home/blood/Desktop/WEEK-3-PROJECT/suggester.css" rel="stylesheet" type="text/css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/home/blood/Desktop/WEEK-3-PROJECT/suggester.js"></script>
+
 
 
 
@@ -19,52 +22,52 @@
   </head>
   <body>
 <h1>VACATIONAL SURVEY ANYLASIS </h1>
-
-<form action="/action_page.php" method="get">
+ <form id="form">
 <div id=NAME>
-  <label for="NAME">APPLICANT NAMES:</label><input type="text" name="NAME" value=""><hr>
+  <label for="NAME">APPLICANT NAMES:</label><input type="text" name="NAME" value="" required><hr>
 </div>
 
 <P> AGE OF APPLICANT:<BR>
-<input type="radio" name="AGE OF APPLICANT" value="1-10">1-10<BR>
-<input type="radio" name="AGE OF APPLICANT" value="10-20">10-20<BR>
-<input type="radio" name="AGE OF APPLICANT" value="20-30">20-40<BR>
-<input type="radio" name="AGE OF APPLICANT" value="30-40">40+<BR>
+<input type="radio" name="age " value="1-10" required>1-10<BR>
+<input type="radio" name="age " value="10-20">10-20<BR>
+<input type="radio" name="age" value="20-30">20-40<BR>
+<input type="radio" name="age " value="30-40">40+<BR>
 </p>
 
+
 <P> LEVEL OF ACTIVITY:<BR>
-<input type="radio" name="LEVEL OF ACTIVITY" value="Minimum">Minimum<BR>
-<input type="radio" name="LEVEL OF ACTIVITY" value="Moderate">Moderate<BR>
-<input type="radio" name="LEVEL OF ACTIVITY" value="Exciting">Exciting<BR>
-<input type="radio" name="LEVEL OF ACTIVITY" value="Very Exciting">Very Exciting<BR>
+<input type="radio" name="activity" value="Minimum" required>Minimum<BR>
+<input type="radio" name=" activity" value="Moderate">Moderate<BR>
+<input type="radio" name=" activity" value="Exciting">Exciting<BR>
+<input type="radio" name="activity" value="Very Exciting">Very Exciting<BR>
 </p>
 
 <P>VACATION EXPENDITURE: <BR>
-<input type="radio" name="VACATION EXPENDITURE" value="100-500">100-500<BR>
-<input type="radio" name="VACATION EXPENDITURE" value="500-1000">500-1000<BR>
-<input type="radio" name="VACATION EXPENDITURE" value="1000-1500">1000-1500<BR>
-<input type="radio" name="VACATION EXPENDITURE" value="1500+">1500+<BR>
+<input type="radio" name="expenditure" value="100-500" required>100-500<BR>
+<input type="radio" name="expenditure" value="500-1000">500-1000<BR>
+<input type="radio" name="expenditure" value="1000-1500">1000-1500<BR>
+<input type="radio" name="expenditure" value="1500+">1500+<BR>
   <label>$ per day</label>
 </p>
 
 
   <p>WEATHER PREFERENCE: <br>
-<input type="radio" name="WEATHER PREFERENCE" value="SUNNY">SUNNY<BR>
-<input type="radio" name="WEATHER PREFERENCE" value="CHILLED">CHILLED<BR>
-<input type="radio" name="WEATHER PREFERENCE" value="PRECIPITATION">PRECIPITATION<BR>
-<input type="radio" name="WEATHER PREFERENCE" value="COOLED">COOLED<BR>
+<input type="radio" name="weather" value="SUNNY" required>SUNNY <BR>
+<input type="radio" name="weather " value="CHILLED">CHILLED<BR>
+<input type="radio" name="weather " value="PRECIPITATION">PRECIPITATION<BR>
+<input type="radio" name="weather " value="COOLED">COOLED<BR>
 
 
 <P>SCENERY PREFERENCE:<BR>
-<input type="radio" name="SCENERY PREFERENCE" value="ROCKY">ROCKY<BR>
-<input type="radio" name="SCENERY PREFERENCE" value="LOW-LYING">LOW-LYING<BR>
-<input type="radio" name="SCENERY PREFERENCE" value="VAST-SHAPED">VAST-SHAPED<BR>
-<input type="radio" name="SCENERY PREFERENCE" value="AQUATIC SCENERY">AQUATIC SCENERY<BR>
+<input type="radio" name="scenery " value="ROCKY" required>ROCKY<BR>
+<input type="radio" name="scenery " value="LOW-LYING">LOW-LYING<BR>
+<input type="radio" name="scenery " value="VAST-SHAPED">VAST-SHAPED<BR>
+<input type="radio" name="scenery " value="AQUATIC SCENERY">AQUATIC SCENERY<BR>
 </p>
 
 
 
-  <button type="submit" formaction="/action_page2.php">Submit</button><br>
+<input type="submit" name="submit" value="Submit">
 </form>
 </body>
 
