@@ -6,11 +6,11 @@ $(document).ready(function(event) {
         var weatherID = $("input[name='scenery']:checked").val();
         var sceneryID= $("input[name='activity']:checked").val();
         var expenditureID =$("input[name='expenditure']:checked").val();
-        var activityID = $("input[name='weather']:
-        checked").val();
+        var activityID = $("input[name='weather']:checked").val();
 
 
-        if (ageID="1-10"  )
+
+        console.log(ageID);
       }
     )});
 
