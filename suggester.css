@@ -17,3 +17,7 @@ body{
   background-size:cover;
 
 }
+
+input:invalid{
+  border-color:red;
+}
